@@ -1,0 +1,9 @@
+# dependencies
+
+echo "INSTALLING dependencies.."
+
+apk update
+
+apk add curl git wget mercurial make gcc musl-dev linux-headers unzip
+ 
+echo "Done installing dependencies..."
